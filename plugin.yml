@@ -1,0 +1,5 @@
+name: iHCFDupe
+author: subbotted
+description: Fixes the dupe patch in iHCF
+version: 1.0
+main: me.subbotted.NoDupe

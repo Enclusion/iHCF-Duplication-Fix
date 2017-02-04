@@ -1,0 +1,17 @@
+#
+# (Para/iHCF) AntiDupe by subbotted
+#
+# What does this patch?
+# - This patches the minecart chest and chest " Key Reward" dupe/bug in Para Core/iHCF/TheCore
+#
+# How does this work?
+# - This disables crafting of Minecart Chests and disables placing of chests with a name that contains " Key Reward"
+#
+antidupe_chest_enabled: true
+antidupe_minecart_enabled: true
+
+antidupe_message_to_player: '&a[AntiDupe] &rThis dupe glitch has been &c&lpatched&r.'
+antidupe_message_to_staff: '&a[AntiDupe] &a[Staff] &c<player> &rattempted to exploit the iHCF dupe glitch!'
+
+antidupe_ban: false
+antidupe_ban_command: '/ban <player> &a[AntiDupe] &rAttempting to exploit a duplication glitch'
